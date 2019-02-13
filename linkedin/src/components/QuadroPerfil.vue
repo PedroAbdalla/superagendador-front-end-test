@@ -20,8 +20,7 @@ export default {
 </script>
 
 <style lang="scss">
-    $break-small: 767px;
-    $break-large: 768px;
+    @import "../scss/variaveis";
     .perfil {           
         .perfil-foto {
             width: 150px;
@@ -32,11 +31,11 @@ export default {
         }
         .perfil-nome {
             div {
-                color: #666666;
+                color: $brownish-grey;
                 text-align: center;
                 &:first-child {
                     font-weight: bold;
-                    columns: #24292e;
+                    columns: $dark-grey;
                 }
             }
         }

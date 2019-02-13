@@ -23,9 +23,7 @@ export default {
 }
 </script>
 <style lang="scss">
-    $white-two: #e3e3e3;
-    $slate-grey-two: #586069;
-    $rusty-orange: #e36209;
+    @import "../scss/variaveis";
     .repositorio {
         color: $slate-grey-two;
         .menu.list-inline {
