@@ -1,0 +1,57 @@
+{
+    "dados": {
+        "repos": [ 
+            {
+                "titulo":"Lorem Ipsum 1",
+                "descricao":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "star": 10,
+                "share":22
+            },
+            {
+                "titulo":"Lorem Ipsum 2",
+                "descricao":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "star":118,
+                "share":33
+            },
+            {
+                "titulo":"Lorem Ipsum 3",
+                "descricao":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "star":77,
+                "share":42
+            }
+        ],
+        "starred": [ 
+            {
+                "titulo":"Lorem Ipsum 4",
+                "descricao":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "star": 32,
+                "share":242
+            },
+            {
+                "titulo":"Lorem Ipsum 5",
+                "descricao":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "star":342,
+                "share":123
+            },
+            {
+                "titulo":"Lorem Ipsum 6",
+                "descricao":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "star":8,
+                "share":1
+            },
+            {
+                "titulo":"Lorem Ipsum 7",
+                "descricao":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "star":29,
+                "share":33
+            },
+            {
+                "titulo":"Lorem Ipsum 8",
+                "descricao":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "star":19,
+                "share":11
+            }
+        ]
+    }
+}
+

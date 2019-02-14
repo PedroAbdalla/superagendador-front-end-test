@@ -1,6 +1,6 @@
 <template>
     <div class="perfil col-md-3 col-sm-12">
-        <router-link to="/about">
+        <router-link to="/perfil">
             <div class="perfil-foto"></div>
         </router-link>
         <div class="perfil-nome">
@@ -42,6 +42,7 @@ export default {
         @media screen and (max-width: $break-small) {
             display: flex;
             justify-items: center;
+            margin-bottom: -35px;
             .perfil-foto {
                 margin: 15px 6px !important;
             }
@@ -55,7 +56,7 @@ export default {
                 height: 90px;
                 border-radius: 90px;
                 margin: 15px auto;
-                background: url(/img/pbperfil.e39c3f66.png) no-repeat 60% top/cover;
+                background: url('../assets/pbperfil.png') no-repeat 60% top/cover;
             }
         }
     }
