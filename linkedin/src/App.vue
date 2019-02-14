@@ -4,10 +4,6 @@
          <img alt="Github logo" src="./assets/shape.png">
          <b>Github</b>&nbsp;profiles
     </div>
-    <!-- <div id="nav">
-        <router-link to="/">Home</router-link> |
-        <router-link to="/about">About</router-link>
-    </div> -->
     <router-view/>
 </div>
 </template>

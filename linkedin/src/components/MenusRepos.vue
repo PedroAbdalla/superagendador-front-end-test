@@ -2,8 +2,7 @@
     <div class="repositorio col-md-9 col-sm-12 p-0">
         <ul class="menu list-inline">
             <li class="list-inline-item" 
-                v-on:click="setActive('repos')"
-                @click="switchComponent('lista-repos')"
+                v-on:click="setActive('repos'), switchComponent('lista-repos')"
                 :class="{ active: isActive('repos') }">
                 <div>
                     <span>Repos</span> 
@@ -11,8 +10,7 @@
                 </div>
             </li>
             <li class="list-inline-item" 
-                v-on:click="setActive('starred')"
-                @click="switchComponent('lista-starred')"
+                v-on:click="setActive('starred'), switchComponent('lista-starred')"
                 :class="{ active:isActive('starred') }">
                 <div>
                     <span>Starred</span> 
@@ -27,7 +25,6 @@
 
 <script>
 import ListaRepos from './ListaRepos.vue';
-import ListaStarred from './ListaStarred.vue';
 export default {
     data() {
         return {

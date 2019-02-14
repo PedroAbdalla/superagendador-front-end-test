@@ -42,9 +42,6 @@ export default {
                 return d.titulo.toLowerCase().indexOf(this.search.toLowerCase()) > -1
             })
         }
-    },
-    mounted: function () {
-        console.log(this.dado)
     }
 }
 </script>
@@ -62,7 +59,7 @@ export default {
     }
     .form-control {
         border-left: none;
-        &focus{
+        &:focus{
             box-shadow: none;
             border-color: #CCC;
             border-left-color: rgb(204, 204, 204);
