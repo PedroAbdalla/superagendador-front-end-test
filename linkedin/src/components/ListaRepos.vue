@@ -27,13 +27,7 @@ export default {
     props: ['dado'],
     data() {
         return {
-            search: '',
-            items: [
-                {name: 'Stackoverflow', type: 'development'},
-                {name: 'Game of Thrones', type: 'aserie'},
-                {name: 'Jon Snow', type: 'actor'},
-                {name: 'hueheuheuh', type: 'actor'}
-            ]
+            search: ''
         }
     },
     computed: {
