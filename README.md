@@ -1,3 +1,7 @@
+Para executar o vue seguir as instruções do README da pasta linkedin.
+Para executar o json server  seguir as instruções do README da pasta json-server.
+
+
 # Teste para vaga de front-end no SuperAgendador
 Este repositório tem como fim testar os candidatos para vaga de front-end developer no [SuperAgendador](https://superagendador.com.br).
 > Para esta vaga buscamos alguém apaixonado por HTML, CSS, JavaScript e atento aos detalhes!
